@@ -19,6 +19,8 @@
     "babel-preset-stage-2": "^6.22.0",
     "node": "0.0.0",
     "node-cli": "^0.1.0",
-    "react": "^15.4.2"
+    "react": "^15.4.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   }
 }
