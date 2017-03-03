@@ -1,13 +1,12 @@
 let http = require("http");
 let fs = require("fs");
 
-let rootPath = "../"; //根目录
+let rootPath = "."; //根目录
 
 http.createServer((req, res) => {
   let url = req.url;
   let filePath = rootPath + url;
   fs.readFile(filePath, (err, data) => {
-
     if (err) {
 
       res.writeHeader(404, {
